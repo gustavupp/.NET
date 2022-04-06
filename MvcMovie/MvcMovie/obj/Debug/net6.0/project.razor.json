@@ -16303,6 +16303,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\CODE\\.NET\\MvcMovie\\MvcMovie\\MvcMovie\\Views\\HelloWorld\\Index.cshtml",
+      "TargetPath": "MvcMovie\\Views\\HelloWorld\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\CODE\\.NET\\MvcMovie\\MvcMovie\\MvcMovie\\Views\\Shared\\Error.cshtml",
       "TargetPath": "MvcMovie\\Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -16353,8 +16358,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\CODE\\.NET\\MvcMovie\\MvcMovie\\MvcMovie\\Views\\_ViewStart.cshtml",
+      "TargetPath": "MvcMovie\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\CODE\\.NET\\MvcMovie\\MvcMovie\\MvcMovie\\Views\\HelloWorld\\Welcome.cshtml",
+      "TargetPath": "MvcMovie\\Views\\HelloWorld\\Welcome.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\CODE\\.NET\\MvcMovie\\MvcMovie\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\CODE\\.NET\\MvcMovie\\MvcMovie\\MvcMovie\\Views\\_ViewImports.cshtml",
+      "TargetPath": "MvcMovie\\Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],
