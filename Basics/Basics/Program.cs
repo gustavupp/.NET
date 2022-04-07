@@ -5,41 +5,30 @@ namespace Basics
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            //casting
-
-            //if convertions won't lose data, and types are compatible, you CAN convert.
-            byte b = 1; //byte datatype has 1 byte
-            int c = b; //int datatype has 4 bytes
-
-            //if might lose data, it won't convert implicitly, you have to CAST.
-            int d = 1;
-            byte e = (byte)d;
-
-            //converting uncompatible data types
-            string s = "1";
-            int x = int.Parse(s);
-            //or
-            int y = Convert.ToInt32(s);
-
-            //joining array items
-            var arrayOfInt = new int[5] { 1,2,3,4,5 };
-            string list = string.Join(", ", arrayOfInt);
-
-            //Console.WriteLine(list);
-
-            //Verbatim strings
-            string msg = "Check this url: /n /t http:///path//path//file";
-            string verbatimMsg = @"Check this url:
-    http://path/path/file";
-
-            //Console.WriteLine($"msg: {msg}, verbatimMsg: {verbatimMsg}");
 
             //Enums
             //enumClass.getShippingMethod();
-        }
 
-      
+            //reference vs value types
+
+            //value type
+            var myAge = 10;
+            ReferenceVsValueTypes.Increment(myAge);
+            //Console.WriteLine(myAge); //doest change the value of MyAge within this scope
+
+            //reference type
+            Person gus = new Person("Gus", 31);
+            ReferenceVsValueTypes.MakeOlder(gus);
+            //Console.WriteLine(gus.age); //changes the value since both here and inside the method they point to the same object in memory
+
+            //Arrays.AboutArrays();
+
+            Lists.AboutLists();
+
+
+        }
     }
 }
