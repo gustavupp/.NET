@@ -1,8 +1,0 @@
-D:\CODE\.NET\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.csproj.AssemblyReference.cache
-D:\CODE\.NET\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.GeneratedMSBuildEditorConfig.editorconfig
-D:\CODE\.NET\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.AssemblyInfoInputs.cache
-D:\CODE\.NET\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.AssemblyInfo.cs
-D:\CODE\.NET\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.csproj.CoreCompileInputs.cache
-D:\CODE\.NET\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.MvcApplicationPartsAssemblyInfo.cache
-D:\CODE\.NET\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.RazorAssemblyInfo.cache
-D:\CODE\.NET\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.RazorAssemblyInfo.cs

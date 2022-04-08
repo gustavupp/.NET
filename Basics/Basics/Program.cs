@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 
 namespace Basics 
@@ -26,9 +27,35 @@ namespace Basics
 
             //Arrays.AboutArrays();
 
-            Lists.AboutLists();
+            //Lists.AboutLists();
+
+            //Constructors
+            var myCustomer = new Costumer("Gustavo", 31);
+
+            //Object initializer
+            var otherCostumer = new Costumer { Name = "Gus", Id = 31 };
+
+            //Params Modifier
+            //Console.WriteLine( Calculator.AddNums(1,2,3,4));
+            //Console.WriteLine(Calculator.AddNums(new int[] {1,2,3,4}));
+
+            //Indexers
+            var cookie = new  HttpCookie();
+            cookie["name"] = "GusCookie";
+            Console.WriteLine(cookie["name"]);
+
+            //Dictionary
+            var myDictionary = new Dictionary<string, string>()
+            {
+                {"Fname","Gussoo" },
+                { "Lname", "Pereira" }
+            };
+            myDictionary["Fname"] = "Gustavo";
+
+            Console.WriteLine($"Full Name: {myDictionary["Fname"]} {myDictionary["Lname"]}");
 
 
-        }
+            }
+
     }
 }
