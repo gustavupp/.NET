@@ -1,0 +1,11 @@
+﻿@model TodoItem
+
+    <form asp-controller="Todo" asp-action="CreateTodo" method="post">
+        <div class="d-flex flex-column">
+            <input asp-for=TodoName class="form-control mb-2" type="text" placeholder="Todo Name">
+            <input asp-for=Id class="form-control mb-2" type="number" placeholder="Todo Id">
+            <input asp-for=Done class="form-control mb-2" type="text" placeholder="Done?">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+    </form>
+
