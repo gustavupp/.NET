@@ -1,0 +1,12 @@
+D:\CODE\.NET\TodoApp\TodoApp.Persistence\obj\Debug\TodoApp.Persistence.csproj.AssemblyReference.cache
+D:\CODE\.NET\TodoApp\TodoApp.Persistence\obj\Debug\TodoApp.Persistence.csproj.CoreCompileInputs.cache
+D:\CODE\.NET\TodoApp\TodoApp.Persistence\bin\Debug\TodoApp.Persistence.dll.config
+D:\CODE\.NET\TodoApp\TodoApp.Persistence\bin\Debug\TodoApp.Persistence.dll
+D:\CODE\.NET\TodoApp\TodoApp.Persistence\bin\Debug\TodoApp.Persistence.pdb
+D:\CODE\.NET\TodoApp\TodoApp.Persistence\bin\Debug\EntityFramework.dll
+D:\CODE\.NET\TodoApp\TodoApp.Persistence\bin\Debug\EntityFramework.SqlServer.dll
+D:\CODE\.NET\TodoApp\TodoApp.Persistence\bin\Debug\EntityFramework.xml
+D:\CODE\.NET\TodoApp\TodoApp.Persistence\bin\Debug\EntityFramework.SqlServer.xml
+D:\CODE\.NET\TodoApp\TodoApp.Persistence\obj\Debug\TodoApp.Persistence.csproj.CopyComplete
+D:\CODE\.NET\TodoApp\TodoApp.Persistence\obj\Debug\TodoApp.Persistence.dll
+D:\CODE\.NET\TodoApp\TodoApp.Persistence\obj\Debug\TodoApp.Persistence.pdb

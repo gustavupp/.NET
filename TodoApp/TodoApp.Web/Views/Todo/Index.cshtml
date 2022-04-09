@@ -1,0 +1,40 @@
+﻿@model List<TodoApp.Models.Todo.TodoItemModel>
+
+<h1>Todos</h1>
+<hr/>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Todo</th>
+            <th scope="col">Id</th>
+            <th scope="col">Done?</th>
+            <th scope=col>Delete | Edit</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.TodoName</th>
+                <td>@item.TodoId</td>
+                <td>@item.Done</td>
+                <td>
+                    <div class="d-flex">
+                        <a class="btn btn-danger mr-2" href="/Todo/Delete?TodoId=@item.TodoId">Delete</a>
+                        <a class="btn btn-info" href="/Todo/Edit?TodoId=@item.TodoId">Edit</a>
+                    </div>
+                </td>
+
+            </tr>          
+        }
+
+
+    </tbody>
+</table>
+
+   
+   
+
+<hr/>
+
+<a class="btn btn-success" href="/Todo/Create">Create</a>

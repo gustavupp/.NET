@@ -1,11 +1,11 @@
-﻿@model List<TodoApp.Models.TodoItem>
+﻿@model List<TodoApp.Models.Todo.TodoItemModel>
 
 <h1>Todos</h1>
 <hr/>
 <ul>
     @foreach(var item in Model)
     {
-         <li>@item.TodoName | Id: @item.Id | Done: @item.Done</li>
+         <li>@item.TodoName | Id: @item.TodoId | Done: @item.Done</li>
     }
    
 </ul>

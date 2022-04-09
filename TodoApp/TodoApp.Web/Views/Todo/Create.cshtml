@@ -1,0 +1,20 @@
+﻿@model TodoApp.Models.Todo.TodoItemModel
+@{
+    var action = Model.TodoId == 0 ? "CreateTodo" : "Edit";
+    var title = Model.TodoId == 0 ? "Create Todo" : "Edit";
+}
+
+<h1>@title</h1>
+
+@using (Html.BeginForm(action,"Todo")) 
+{
+    <div>
+        <!--<input asp-for=TodoName class="form-control mb-2" type="text" placeholder="Todo Name">-->
+        @Html.EditorFor(x => x.TodoName, new { @class = "form-control mb-2", type = "text", placeholder = "Todo Name" })
+        @Html.EditorFor(x => x.Done, new { @class = "form-control mb-2", type = "text", placeholder = "Done?" })
+        @Html.HiddenFor(x => x.TodoId)
+        <button class="btn btn-primary" type="submit">@title</button>
+    </div>
+}
+
+
