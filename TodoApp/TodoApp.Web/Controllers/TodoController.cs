@@ -9,7 +9,7 @@ namespace TodoApp.Controllers
 {
     public class TodoController : Controller
     {
-        private TodoAppEntities _context = new TodoAppEntities();   
+        private TodoAppEntities _context = new TodoAppEntities(); 
         //static public List<TodoItem> todoList = new List<TodoItem>();
         
         [HttpGet]

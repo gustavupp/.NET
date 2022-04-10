@@ -5,15 +5,23 @@
 }
 
 <h1>@title</h1>
-
+<br/>
 @using (Html.BeginForm(action,"Todo")) 
 {
-    <div>
+    <div class="container">
         <!--<input asp-for=TodoName class="form-control mb-2" type="text" placeholder="Todo Name">-->
-        @Html.EditorFor(x => x.TodoName, new { @class = "form-control mb-2", type = "text", placeholder = "Todo Name" })
-        @Html.EditorFor(x => x.Done, new { @class = "form-control mb-2", type = "text", placeholder = "Done?" })
-        @Html.HiddenFor(x => x.TodoId)
-        <button class="btn btn-primary" type="submit">@title</button>
+        <div class="form-group">
+            <label>Todo</label>
+            @Html.EditorFor(x => x.TodoName, new { @class = "form-control mb-2", type = "text", placeholder = "Todo Name" })
+        </div>
+       
+        <div class="form-group">
+            <label>Done?</label>
+            @Html.EditorFor(x => x.Done, new { @class = "form-control mb-2", type = "text", placeholder = "Done?" })
+            @Html.HiddenFor(x => x.TodoId)
+        </div>
+        
+        <button class="btn btn-success" type="submit">@title</button>
     </div>
 }
 
