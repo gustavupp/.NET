@@ -12,7 +12,7 @@ namespace TodoApp.Persistence
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    
+
     public partial class TodoAppEntities : DbContext
     {
         public TodoAppEntities()

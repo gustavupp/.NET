@@ -16,13 +16,14 @@ namespace TodoApp.Controllers
         public ActionResult Index()
         {
             var todoList = _context.TodoItem
-                .Select(x => new TodoItemModel 
-                {
-                    TodoId= x.TodoId,
-                    TodoName=x.TodoName,
-                    Done = x.Done
-                })
+                .Select(item => new TodoItemModel
+            {
+                Done = item.Done,
+                TodoId = item.TodoId,
+                TodoName = item.TodoName 
+            })
                 .ToList();
+
             return View(todoList);
         }
 

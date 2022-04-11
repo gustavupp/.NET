@@ -21,6 +21,13 @@ namespace FakeStore2.Controllers
             return View(orders.ToList());
         }
 
+        //GET: Orders/Costumer/Id
+        public ActionResult Costumer(int id)
+        {
+            var orders = db.Orders.Where(o => o.CostumerId == id).ToList();
+            return View(nameof(Index),orders);
+        }
+
         // GET: Orders/Details/5
         public ActionResult Details(int? id)
         {

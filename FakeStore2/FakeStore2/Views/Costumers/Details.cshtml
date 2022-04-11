@@ -43,9 +43,20 @@
             @Html.DisplayFor(model => model.CostumerSince)
         </dd>
 
+        <dt>
+            @Html.DisplayNameFor(model => model.Orders)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Orders.Count)
+        </dd>
+
+
     </dl>
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.CostumerId }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Back to List", "Index") |
+    @Html.ActionLink("Orders", "Costumer", "Orders", new { id = Model.CostumerId }, null)
+
 </p>
