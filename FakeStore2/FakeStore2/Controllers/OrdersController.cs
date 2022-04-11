@@ -21,6 +21,7 @@ namespace FakeStore2.Controllers
             return View(orders.ToList());
         }
 
+<<<<<<< HEAD
         //GET: Orders/Costumer/Id
         public ActionResult Costumer(int id)
         {
@@ -28,6 +29,8 @@ namespace FakeStore2.Controllers
             return View(nameof(Index),orders);
         }
 
+=======
+>>>>>>> 208d0483a107369dfc9c869a133cc5a99d68911a
         // GET: Orders/Details/5
         public ActionResult Details(int? id)
         {
